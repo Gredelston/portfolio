@@ -1,13 +1,27 @@
-body {
+body {r
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #F0F0FF;
 }
 
 a {
   color: #00B7FF;
 }
 
-p {
+#title {
+	float: left;
+	width: 60%;
+}
+
+
+/*       ACCORDION SECTION          */
+
+
+.acc {
+	padding: 10px;
+}
+
+.acc div p {
 	background-color: #FFAA00;
 	width: auto;
 	height: height;
@@ -17,10 +31,6 @@ p {
 	padding: 7px;
 }
 
-.acc {
-	width: 800px;
-	padding: 10px;
-}
 
 input {
 	width: 40px;
@@ -36,4 +46,28 @@ form {
 	border: solid black 1px;
 	border-radius: 5px;
 	width: 822px;
+	float: left;
+	width: 60%;
+	background-color: #FFFFFF;
+}
+
+#blurbBox {
+	border: solid black 1px;
+	border-radius: 5px;
+	width: 822px;
+	float: right;
+	padding: 7px;
+	width: 35%;
+	background-color: #FFFFFF;
+}
+
+#footer {
+	background-color: #888888;
+	width: 100%;
+	height: fill;
+	float: left;
+	padding: 7px;
+	border-radius: 5px;
+	margin-top: 8px;
+	clear: both;
 }

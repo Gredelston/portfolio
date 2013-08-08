@@ -1,21 +1,30 @@
 extends layout
 
 block content
-    h1= title
-    h2 This is my portfolio's testing ground!
+    div(id="blurbBox")
+        span(id="title")
+            h1= title
+        p(id="blurb")
+            h2 This is my portfolio's testing ground!
 
-    form
-        div(id="accBox")
-            div(class="acc")
-                h3 Course Projects
-                div
-                    p 
-                    p
-                h3 Employment and Research
-                div
-                    p
-                    p
-                h3 Free Time
-                div
-                    p I'm a baritone in a barbershop quartet! That's pretty nifty. I'm actually just filling up space here. La-de-do-de-da. Hahahaha hehehehe hohohoho. I am simply writing words. Writing words is objectively more fun than just slamming on my keyboard. Objectively, so you can't argue with it. It's a fact. Look it up / you can write it down.
-                    p This is also a fun fact.
+    div(id="accBox")
+        div(class="acc")
+            h3 About Me
+            div
+                p
+            h3 Course Projects
+            div
+                p 
+                p
+            h3 Employment and Research
+            div
+                p
+                p
+            h3 Free Time
+            div
+                p I'm a baritone in a barbershop quartet! That's pretty nifty. I'm actually just filling up space here. La-de-do-de-da. Hahahaha hehehehe hohohoho. I am simply writing words. Writing words is objectively more fun than just slamming on my keyboard. Objectively, so you can't argue with it. It's a fact. Look it up / you can write it down.
+                p This is also a fun fact.
+
+
+    div(id="footer")
+        span This is also a test, but this one is in the footer.
