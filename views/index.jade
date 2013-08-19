@@ -1,30 +1,55 @@
 extends layout
 
 block content
-    div(id="blurbBox")
-        span(id="title")
-            h1= title
-        p(id="blurb")
-            h2 This is my portfolio's testing ground!
 
-    div(id="accBox")
-        div(class="acc")
-            h3 About Me
-            div
-                p
-            h3 Course Projects
-            div
-                p 
-                p
-            h3 Employment and Research
-            div
-                p
-                p
-            h3 Free Time
-            div
-                p I'm a baritone in a barbershop quartet! That's pretty nifty. I'm actually just filling up space here. La-de-do-de-da. Hahahaha hehehehe hohohoho. I am simply writing words. Writing words is objectively more fun than just slamming on my keyboard. Objectively, so you can't argue with it. It's a fact. Look it up / you can write it down.
-                p This is also a fun fact.
+    div(id="top")
 
+        div(id="picture", class="left")
+            img(src="images/greg.jpg")
 
-    div(id="footer")
-        span This is also a test, but this one is in the footer.
+        div(id="aboutBox", class="right")
+            span(id="title")
+                | Greg Edelston
+            p(id="aboutMe")
+                | Hi there! My name is Greg. I'm a junior at 
+                a(href="http://www.olin.edu") Olin College
+                | , which is a tiny engineering school in Needham, Massachussets.
+                | I'm majoring in Engineering with a Concentration in Computing,
+                | which is a lot like computer science.
+                | I love making music, talking about math, doing puzzles,
+                | going on adventures, and creating cool projects. <br /> <br />
+                | If you want to contact me, feel free to send me an email
+                | at 
+                a(href="mailto:greg@students.olin.edu") greg@students.olin.edu
+                |  -- I'd love to hear from you.
+                | I also have a 
+                a(href="resume.pdf") resume
+                |  you can check out -- it's current as of August, 2013. <br /> <br />
+                | Below, you can see a few of the projects I've been working on.
+                | Just click on a project to read more about it!
+                | If you have any questions about any of my projects, don't hesitate
+                | to email me, and I'll respond as soon as I can.
+
+    div(id="bottom")
+
+        div(id="projectSelect", class="left")
+            div(class="acc")
+                h3 Course Projects
+                div
+                    p 
+                    p
+                h3 Employment and Research
+                div
+                    p Mathematics of Microfluidics
+                    p Cognex Corporation
+                    p Buck's Rock
+                h3 Free Time
+                div
+                    p Barbershop Quartet
+                    p This Website
+
+        div(id="blurbBox", class="right")
+            span(class="blurb")
+                | Blurb it up!
+
+    div(id="footer") This is also a test, but this one is in the footer.

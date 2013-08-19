@@ -1,18 +1,67 @@
-body {r
+body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
   background-color: #F0F0FF;
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-top: 0%;
 }
 
 a {
-  color: #00B7FF;
+  color: #2498db;
+}
+
+.left {
+	width: 41%;
+	float: left;
+	clear: left;
+}
+
+.right {
+	width: 58%;
+	float: right;
+	clear: right;
+}
+
+#top {
+	padding-bottom: 7px;
+}
+
+#bottom {
+	padding-top: 7px;
+	clear: both;
+}
+
+#picture img {
+	width: 100%;
+	border-radius: 5px;
+	border: solid black 1px;
+}
+
+#aboutBox {
+	border: solid black 1px;
+	border-radius: 5px;
+	background-color: #FFFFFF;
+	height: 100%;
 }
 
 #title {
-	float: left;
-	width: 60%;
+	font-size: 250%;
+	padding-top: 10px;
+	padding-left: 12px;
 }
 
+#aboutMe {
+	padding-left: 17px;
+}
+
+#blurbBox {
+	border: solid black 1px;
+	border-radius: 5px;
+	background-color: #FFFFFF;
+	height: 200px;
+}
 
 /*       ACCORDION SECTION          */
 
@@ -42,22 +91,9 @@ form {
 	clear: both;
 }
 
-#accBox {
+#projectSelect {
 	border: solid black 1px;
 	border-radius: 5px;
-	width: 822px;
-	float: left;
-	width: 60%;
-	background-color: #FFFFFF;
-}
-
-#blurbBox {
-	border: solid black 1px;
-	border-radius: 5px;
-	width: 822px;
-	float: right;
-	padding: 7px;
-	width: 35%;
 	background-color: #FFFFFF;
 }
 
