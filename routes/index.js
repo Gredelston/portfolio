@@ -4,9 +4,5 @@
  */
 
 exports.index = function(req, res){
-    res.render('index', { title: 'Greg\'s Portfolio'});
+  res.render('index', { title: 'Express' });
 };
-
-exports.getProjects = function(req, res){
-    res.render('This is a test.');
-}

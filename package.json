@@ -1,13 +1,18 @@
 {
-  "name": "Greg Edelston's portfolio website",
+  "name": "greg-edelston-portfolio",
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node app.js"
-  },
+  "start": "node app"
+ },
+
   "dependencies": {
-    "express": "3.2.4",
-    "jade": "*"
+    "express": "2.5.11", 
+    "jade": "*",
     "jquery": "*"
+  },
+    "engines": {
+     "node": "0.10.x",
+     "npm": "1.2.x"
   }
 }
