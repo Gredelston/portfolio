@@ -25,13 +25,9 @@ a {
 	clear: right;
 }
 
-#top {
-	padding-bottom: 7px;
-}
 
-#bottom {
-	padding-top: 7px;
-	clear: both;
+.bottom {
+	margin-top: 7px;
 }
 
 #picture img {
@@ -56,7 +52,7 @@ a {
 #aboutMe {
 	display: block;
 	padding-left: 17px;
-	padding-right: 17px	;
+	padding-right: 17px;
 }
 
 #blurbBox {

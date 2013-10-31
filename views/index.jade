@@ -2,12 +2,30 @@ extends layout
 
 block content
 
-    div(id="top")
 
-        div(id="picture", class="left")
+    div(class="left")
+        div(id="picture", class="top")
             img(src="images/greg.jpg")
+        div(id="projectSelect", class="bottom")
+            div(class="acc")
+                h3 Course Projects
+                div
+                    p R.A.P.H.A.E.L.
+                    p UOCD
+                    p Audializer
+                h3 Employment and Research
+                div
+                    p Mathematics of Microfluidics
+                    p Cognex Corporation
+                    p Buck's Rock
+                h3 Free Time
+                div
+                    p Barbershop Quartet
+                    p This Website
 
-        div(id="aboutBox", class="right")
+
+    div(class="right")
+        div(id="aboutBox", class="top")
             span(id="title")
                 | Greg Edelston
             p(id="aboutMe")
@@ -26,31 +44,13 @@ block content
                 | If you have any questions about any of my projects,
                 | or otherwise want to get into contact with me,
                 | the best way to reach me is by email at 
-                a(href="mailto:greg@students.olin.edu") greg@students.olin.edu
+                a(href="mailto:gredelston@gmail.com") gredelston@gmail.com
                 |  -- I'd love to hear from you.
                 | I also have a 
                 a(href="resume.pdf") resume
                 |  you can check out -- it's current as of October, 2013.
 
-    div(id="bottom")
-
-        div(id="projectSelect", class="left")
-            div(class="acc")
-                h3 Course Projects
-                div
-                    p RAPHAEL
-                    p
-                h3 Employment and Research
-                div
-                    p Mathematics of Microfluidics
-                    p Cognex Corporation
-                    p Buck's Rock
-                h3 Free Time
-                div
-                    p Barbershop Quartet
-                    p This Website
-
-        div(id="blurbBox", class="right")
+        div(id="blurbBox", class="bottom")
             span(id="blurb")
                 | This is a placeholder blurb. I use it for holding places.
 

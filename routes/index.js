@@ -10,7 +10,6 @@ exports.index = function(req, res){
 
 // GET figure that out later
 exports.getProjects = function(req, res){
-	console.log('testing');
     res.end('This is a test.');
 }
 
