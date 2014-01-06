@@ -1,0 +1,26 @@
+
+/*
+ * GET home page.
+ */
+
+exports.index = function(req, res){
+<<<<<<< HEAD
+	// Extract the "About Me" blurb.
+    res.render('index', { title: 'Greg\'s Portfolio'});
+};
+
+// GET figure that out later
+exports.getProjects = function(req, res){
+    res.end('This is a test.');
+}
+
+/*
+
+Given req string (projectname.ext),
+return the appropriate blurb.
+
+*/
+=======
+  res.render('index', { title: 'Express' });
+};
+>>>>>>> 4679af7c58eef7d1b47a2ffe2ae162a05d946dfb

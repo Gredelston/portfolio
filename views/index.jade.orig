@@ -1,0 +1,74 @@
+extends layout
+
+block content
+<<<<<<< HEAD
+
+
+    div(class="left")
+        div(id="picture", class="top")
+            img(src="images/greg.jpg")
+        div(id="projectSelect", class="bottom")
+            div(class="acc")
+                h3 Course Projects
+                div
+                    p R.A.P.H.A.E.L.
+                    p UOCD
+                    p Audializer
+                h3 Employment and Research
+                div
+                    p Mathematics of Microfluidics
+                    p Cognex Corporation
+                    p Buck's Rock
+                h3 Free Time
+                div
+                    p Barbershop Quartet
+                    p This Website
+
+
+    div(class="right")
+        div(id="aboutBox", class="top")
+            span(id="title")
+                | Greg Edelston
+            p(id="aboutMe")
+                | Hi there! My name is Greg. I'm a junior at 
+                a(href="http://www.olin.edu") Olin College
+                | , which is a tiny engineering school in Needham, Massachussets.
+                | I'm majoring in Engineering with Computing,
+                | which is a lot like computer science,
+                | but with a splash of everything else.
+                | I love making music, talking about math, doing puzzles,
+                | going on adventures, and creating cool projects.
+                | <br><br>
+                | Below, you can see a few of the projects I've been working on lately.
+                | Just click on a project on the left to read more about it!
+                | <br><br>
+                | If you have any questions about any of my projects,
+                | or otherwise want to get into contact with me,
+                | the best way to reach me is by email at 
+                a(href="mailto:gredelston@gmail.com") gredelston@gmail.com
+                |  -- I'd love to hear from you.
+                | I also have a 
+                a(href="resume.pdf") resume
+                |  you can check out -- it's current as of October, 2013.
+
+        div(id="blurbBox", class="bottom")
+            span(id="blurb")
+                | This is a placeholder blurb. I use it for holding places.
+
+    div(id="footer")
+        span
+            a(href="mailto:greg@students.olin.edu") email
+        span |
+        span
+            a(href="https://github.com/gredelston") git
+        span |
+        span
+            a(href="resume.pdf") resume
+
+        br 
+        span Everything made by me, except the 
+        a(href="http://jqueryui.com/themeroller/#!zThemeParams=5d000001001006000000000000003d8888d844329a8dfe02723de3e5703cc0623479daf4a6c1f840d9a020e7cb40db39f67f60e5f164f422fee829ee46a0fcfca7fde4c1a176a1bc61910ff7b0aabe4cac07784b80d8b91ee69aac734f68c69ea147ada4273094fc58bef34b6083bbcbee5d11d9f0526ef6658b7fb72f9e371e255e615b7557ef5d3b3761992158aba37475e9951024072e56ea68b3a557f619ed874ba770f3644f9b6cf88e45c8634e4bf678b1e2d0fc139de5e1935522abdd4638907a2e7609a6f1589ccbb7ac506d78f09e0d461bf46f8b879616fa9e601a270b54c1049f2fb2e53e3d022eebcdaab6607e05f98bcc886376295d7ce1fbf1c977be5e770623ac9ffae4586d6968e3aa6c0dc7d0884d3e7e89edbf70ff6af629785a4a9f3925e0f7198afb5920830ff610e4cd7923f42286fef5b6a8e024042cb8852408c381b1eb25ff934f8f9c9d5014ac5919861aef874c966597ec62007334779680849671990992463211af9d41893a25e6d3d1fadbe012a13f7e642ea337b39cf9a76404c62ae11e46b7d052a05ea5819c102479be254d62a7837cdaf14ca5b50b6281d2629cd69f44b23a0c34aa8cb1ab04a2f2c5395c01f57342508e17c6772baa0e31bd52cc9a0dd674b12cea81d4dfb4ca9da1ce033e20fedf8721269b772c776c05d9ff8190ab00") jQuery UI theme
+=======
+  h1= title
+  p Welcome to #{title}
+>>>>>>> 4679af7c58eef7d1b47a2ffe2ae162a05d946dfb

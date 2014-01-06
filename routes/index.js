@@ -19,3 +19,5 @@ Given req string (projectname.ext),
 return the appropriate blurb.
 
 */
+  res.render('index', { title: 'Express' });
+};

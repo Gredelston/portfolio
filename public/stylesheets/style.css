@@ -116,4 +116,10 @@ form {
 
 #footer span {
 	margin-left: 17px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+>>>>>>> 4679af7c58eef7d1b47a2ffe2ae162a05d946dfb
 }
