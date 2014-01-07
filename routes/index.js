@@ -12,12 +12,3 @@ exports.index = function(req, res){
 exports.getProjects = function(req, res){
     res.end('This is a test.');
 }
-
-/*
-
-Given req string (projectname.ext),
-return the appropriate blurb.
-
-*/
-//  res.render('index', { title: 'Express' });
-//};
